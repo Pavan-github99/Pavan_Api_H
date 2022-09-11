@@ -10,10 +10,10 @@ class TestCaseUnit(unittest.TestCase):
     addSingleUser_response=requests.post("https://petstore.swagger.io/v2/user",json={
       "id": 111,
       "username": "jdsn1",
-      "firstName": "janardan1",
+      "firstName": "pavan",
       "lastName": "dev1",
       "email": "jdsn1@gmail.com",
-      "password": "janardandev1",
+      "password": "pavanpass",
       "phone": "04564554551",
       "userStatus": 1
     },headers={"Accept":"application/json","Content-Type":"application/json","Name":"api_key",'Value':"apivalue"},)
@@ -27,30 +27,30 @@ class TestCaseUnit(unittest.TestCase):
         {
             "id": 2,
             "username": "jdsn2",
-            "firstName": "janardan2",
+            "firstName": "pavan2",
             "lastName": "dev2",
             "email": "jdsn2@gmail.com",
-            "password": "janardandev2",
+            "password": "pavan2pass",
             "phone": "04564554552",
             "userStatus": 1
         },
         {
             "id": 3,
             "username": "jdsn3",
-            "firstName": "janardan3",
+            "firstName": "pavan3",
             "lastName": "dev3",
             "email": "jdsn3@gmail.com",
-            "password": "janardandev3",
+            "password": "pavan3pass",
             "phone": "04564554553",
             "userStatus": 1
         },
         {
             "id": 3,
             "username": "jdsn3",
-            "firstName": "janardan3",
+            "firstName": "pavan4",
             "lastName": "dev3",
             "email": "jdsn3@gmail.com",
-            "password": "janardandev3",
+            "password": "pavan4pass",
             "phone": "04564554553",
             "userStatus": 1
         }
@@ -61,7 +61,7 @@ class TestCaseUnit(unittest.TestCase):
 
   def test_getUserLogin(self):
     #Get Logs user into the system
-    response_logsUser=requests.get("https://petstore.swagger.io/v2/user/login",params={"username":"pavan","password":"pavan2"},headers={"Accept":"application/json"},)
+    response_logsUser=requests.get("https://petstore.swagger.io/v2/user/login",params={"username":"pavan2","password":"pavan2"},headers={"Accept":"application/json"},)
     assert response_logsUser.status_code==200
     print(response_logsUser.json())
     #print(response_logsUser.headers)
