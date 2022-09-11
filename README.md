@@ -1,11 +1,9 @@
 # SwaggerAPI
 
-## Petstore Swagger API by King Pavan
+## Petstore Swagger API by Pavan Kulkarni
 
 ### Prerequisite to run the application,install below packages:-
-robotframework
 
-robotframework-requests
 
 requests
 
@@ -14,13 +12,13 @@ requests
 
 The main files to run test cases are in the "TestCases" Folder.
 
-1. For question1
+1. For PART1
 
-  * test_US1_unittest.py
+  * test_PART1_unittest.py
   * US1.py 
 
 
-2. For Question2- 
+2. For PART2- 
 
   * test_US2_unittest.py
 
