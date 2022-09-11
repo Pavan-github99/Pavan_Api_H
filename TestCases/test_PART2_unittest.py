@@ -1,5 +1,8 @@
 import requests
 import unittest
+
+from pyunitreport import HTMLTestRunner
+
 from utilities.payLoadUnitTest import *
 import logging
 
@@ -26,6 +29,7 @@ class TestCaseUnit(unittest.TestCase):
     def test_update_pet(self):
         updatePet_response = requests.put("https://petstore.swagger.io/v2/pet", json=updatePet(), headers={"Accept": "application/json", "Content-Type": "application/json"})
         print(updatePet_response.status_code)
+
         assert updatePet_response.status_code == 200
 
     def test_delete_pet(self):
@@ -38,4 +42,6 @@ class TestCaseUnit(unittest.TestCase):
 
 
 if __name__ == '__main__':
+
+
     unittest.main()

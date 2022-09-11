@@ -33,6 +33,6 @@ I have created "Utilities package", and other required files under "TestCases" a
 for .py file , .py file can be ru directly from pyCharm 
 
 ### What I tried to implement.
-In parser_session.py-I tried to implement configparser, session, etc.
+In parser_session.py-I tried to implement configparser, sessions, etc.
 
 
