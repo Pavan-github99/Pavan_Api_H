@@ -14,14 +14,14 @@ requests
 
 The main files to run test cases are in the "TestCases" Folder.
 
-1. For question1(US1)-
-  * US1.robot
+1. For question1
+
   * test_US1_unittest.py
   * US1.py 
 
 
-2. For Question2(US2)- 
-  * US2.robot
+2. For Question2- 
+
   * test_US2_unittest.py
 
  
@@ -29,13 +29,10 @@ The main files to run test cases are in the "TestCases" Folder.
 I have created "Utilities package", and other required files under "TestCases" and "Resouces" folder for all required files.
 
 ### How to run the application
-for robot file ,cd source location (TestCases folder) then run "robot .\US1.robot  "
 
-for robot file ,cd source location (TestCases folder) then run "robot .\US2.robot  "
-
-for .py file , .py file can be run directly from pyCharm 
+for .py file , .py file can be ru directly from pyCharm 
 
 ### What I tried to implement.
 In US1.py-I tried to implement configparser, session, etc.
 
-In US2.robot I tried to implement a page object model
+

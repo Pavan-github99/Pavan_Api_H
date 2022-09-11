@@ -1,11 +1,11 @@
 def addSingleUser():
     body = {
         "id": 111222,
-        "username": "jdsn1",
-        "firstName": "janardan1",
+        "username": "pavan1",
+        "firstName": "pavan2",
         "lastName": "dev1",
         "email": "jdsn1@gmail.com",
-        "password": "janardandev1",
+        "password": "pavan3",
         "phone": "04564554551",
         "userStatus": 1
     }
@@ -16,17 +16,17 @@ def addMultipleUsers():
     {
         "id": 2,
         "username": "jdsn2",
-        "firstName": "janardan2",
+        "firstName": "pavan4",
         "lastName": "dev2",
-        "email": "jdsn2@gmail.com",
-        "password": "janardandev2",
+        "email": "pavan@gmail.com",
+        "password": "pavan",
         "phone": "04564554552",
         "userStatus": 1
     },
     {
         "id": 3,
         "username": "jdsn3",
-        "firstName": "janardan3",
+        "firstName": "pavan5",
         "lastName": "dev3",
         "email": "jdsn3@gmail.com",
         "password": "janardandev3",
@@ -36,7 +36,7 @@ def addMultipleUsers():
     {
         "id": 3,
         "username": "jdsn3",
-        "firstName": "janardan3",
+        "firstName": "pavan6",
         "lastName": "dev3",
         "email": "jdsn3@gmail.com",
         "password": "janardandev3",
@@ -51,10 +51,10 @@ def addmodifiedUser():
     body = {
   "id": 2,
   "username": "jdsn2",
-  "firstName": "janardan2updated",
+  "firstName": "pavanupdated",
   "lastName": "dev2updated",
   "email": "jdsn2@gmail.com",
-  "password": "janardandev2",
+  "password": "pavanpass",
   "phone": "04564554552",
   "userStatus": 1}
     return body

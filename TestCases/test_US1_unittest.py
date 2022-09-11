@@ -1,6 +1,7 @@
 import json
 import requests
 import unittest
+
 class TestCaseUnit(unittest.TestCase):
 
 #Add single user
@@ -60,7 +61,7 @@ class TestCaseUnit(unittest.TestCase):
 
   def test_getUserLogin(self):
     #Get Logs user into the system
-    response_logsUser=requests.get("https://petstore.swagger.io/v2/user/login",params={"username":"jdsn1","password":"janardandev1"},headers={"Accept":"application/json"},)
+    response_logsUser=requests.get("https://petstore.swagger.io/v2/user/login",params={"username":"pavan","password":"pavan2"},headers={"Accept":"application/json"},)
     assert response_logsUser.status_code==200
     print(response_logsUser.json())
     #print(response_logsUser.headers)

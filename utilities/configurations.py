@@ -7,4 +7,4 @@ def getConfig():
     return config
 
 def getPassword():
-    return "janardandev1"
+    return "pavan2"
