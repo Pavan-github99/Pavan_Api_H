@@ -2,10 +2,12 @@
 
 ## Petstore Swagger API by Pavan Kulkarni
 
-### Prerequisite to run the application,install below packages:-
+### Descriptions
 
-
-requests
+This is a API testing framework for validating the rest api
+The unit testing framework of my choice for framework is python unittest module
+All the tests in test_PART1 and test_PART2 have been compiled and run sucessfully
+As and when required needed modules have been installed as part of framework
 
 
 ### Main folder and files to run all test cases:
@@ -24,7 +26,7 @@ The main files to run test cases are in the "TestCases" Folder.
 
  
 ### Important folder
-I have created "Utilities package", and other required files under "TestCases" and "Resouces" folder for all required files.
+I have created "Utilities package", and other required files under "TestCases" and "Resources" folder for all required files.
 
 ### How to run the application
 
