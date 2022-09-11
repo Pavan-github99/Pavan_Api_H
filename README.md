@@ -1,6 +1,6 @@
 # SwaggerAPI
 
-## Petstore Swagger API by Janardan
+## Petstore Swagger API by King Pavan
 
 ### Prerequisite to run the application,install below packages:-
 robotframework
