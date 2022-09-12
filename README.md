@@ -4,10 +4,9 @@
 
 ### Descriptions
 
-This is a API testing framework for validating the rest api
-The unit testing framework of my choice for framework is python unittest module
-All the tests in test_PART1 and test_PART2 have been compiled and run sucessfully
-As and when required needed modules have been installed as part of framework
+This is a API testing framework for validating the rest api. 
+The unit testing framework of choice for framework is python's unittest utility
+All the tests in test_PART1 and test_PART2 have been compiled and run successfully
 
 
 ### Main folder and files to run all test cases:
@@ -35,6 +34,6 @@ I have created "Utilities package", and other required files under "TestCases" a
 ### Enhancements from assignment
 1.In parser_session.py-I tried to implement configparser, sessions, etc.
 
-2.Additional test cases related to user and pet apart from scenarios 
+2.Additional test cases related to user and pet apart from scenarios in assignment.
 
 
