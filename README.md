@@ -8,6 +8,9 @@ This is a API testing framework for validating the rest api's .
 The unit testing framework of choice for framework is python's unittest.
 All the tests in test_PART1 and test_PART2 have been compiled and run successfully
 
+## Major Pre reqs
+
+requests , logging , utilities ,
 
 ### Main folder and files to run all test cases:
 

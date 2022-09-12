@@ -1,9 +1,7 @@
 import requests
 import unittest
 
-from pyunitreport import HTMLTestRunner
-
-from utilities.payLoadUnitTest import *
+from utilities.Pet_Payload import *
 import logging
 
 
