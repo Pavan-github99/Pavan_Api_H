@@ -32,7 +32,8 @@ I have created "Utilities package", and other required files under "TestCases" a
 
 for .py file , .py file can be ru directly from pyCharm 
 
-### What I tried to implement.
+### Enhancements from assignment
 In parser_session.py-I tried to implement configparser, sessions, etc.
+Few more test cases related to user and pet scenarios
 
 
