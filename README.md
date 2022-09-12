@@ -30,10 +30,11 @@ I have created "Utilities package", and other required files under "TestCases" a
 
 ### How to run the application
 
-for .py file , .py file can be ru directly from pyCharm 
+.py file can be run directly from pyCharm 
 
 ### Enhancements from assignment
-In parser_session.py-I tried to implement configparser, sessions, etc.
-Additional test cases related to user and pet apart from scenarios 
+1.In parser_session.py-I tried to implement configparser, sessions, etc.
+
+2.Additional test cases related to user and pet apart from scenarios 
 
 
