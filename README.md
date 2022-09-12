@@ -34,6 +34,6 @@ for .py file , .py file can be ru directly from pyCharm
 
 ### Enhancements from assignment
 In parser_session.py-I tried to implement configparser, sessions, etc.
-Few more test cases related to user and pet scenarios
+Additional test cases related to user and pet apart from scenarios 
 
 
