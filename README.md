@@ -19,12 +19,12 @@ The main files to run test cases are in the "TestCases" Folder.
 1. For PART1
 
   * test_PART1_unittest.py
-  * US1.py 
+  * 
 
 
 2. For PART2- 
 
-  * test_US2_unittest.py
+  * test_PART2_unittest.py
 
  
 ### Important folder
